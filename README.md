@@ -1,1 +1,1 @@
-# bioinfoutils
+# BioInfoUtils library

@@ -4,6 +4,5 @@ from bioinfoutils import *
 from bioinfoutils.tests import *
 
 if __name__ == '__main__':
-    b = BioInfoUtils()
-    t = TestAlgorithms(b)
-    t.test()
+    t = Tests(BioInfoUtils())
+    t.run_test()

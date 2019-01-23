@@ -1,9 +1,9 @@
 BASEDIR=./bioinfoutils
 TESTDIR=./bioinfoutils/tests
 
-all : clean test
+all : clean tests
 
 clean :
 	@rm -rf `find ./ -type d -name "*__pycache__"`
-test :
+tests :
 	@python3 ./main_tests.py

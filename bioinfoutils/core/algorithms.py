@@ -32,7 +32,7 @@ class algorithms(object):
             @params String protein or protein as a list of ACDEFGHIKLMNPQRSTVWY
             @returns String protein
         """
-        totalmass, prot = 0, prot.upper()
-        for c in s:
-            totalmass += self.__parent.data.prot_mass[c]
+        totalmass, prot = 0, prot.upper().replace("START", "").replace("STOP", "")
+        for c in prot:
+            totalmass += self.__parent.data.protein_mass[c]
         return totalmass

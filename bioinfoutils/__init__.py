@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
-from bioinfoutils.BioInfoUtils import *
-from bioinfoutils.core import *
+from .BioInfoUtils import *
+from .core import *

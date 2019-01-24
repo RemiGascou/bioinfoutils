@@ -5,12 +5,12 @@ class VersionInfos(object):
     def __init__(self):
         super(VersionInfos, self).__init__()
         self.name         = 'bioinfoutils',
-        self.version      = '0.1.1',
-        self.description  = '',
+        self.version      = '0.1.2',
+        self.description  = 'Basic tools needed in bioinformatics',
         self.url          = 'http://github.com/Remigascou/bioinfoutils',
         self.author       = 'Remi GASCOU',
         self.author_email = 'remi.gascou@gmail.com',
-        self.license      = 'MIT',
+        self.license      = 'GPL2',
         self.packages     = ['bioinfoutils'],
         self.zip_safe     = False
 

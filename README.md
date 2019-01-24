@@ -1,7 +1,7 @@
 # BioInfoUtils library
 
 [![Build Status](https://travis-ci.org/RemiGascou/bioinfoutils.svg?branch=master)](https://travis-ci.org/RemiGascou/bioinfoutils)
-[![PyPi Version](https://badge.fury.io/py/bioinfoutils.svg)
+[![PyPi Version](https://badge.fury.io/py/bioinfoutils.svg)](https://badge.fury.io/py/bioinfoutils.svg)
 
 Some algorithms needed in bioinformatics to process data.
 

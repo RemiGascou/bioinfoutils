@@ -5,6 +5,11 @@
 
 Some algorithms needed in bioinformatics to process data.
 
+## Installation
+
+```python
+pip install bioinfoutils
+```
 
 ## Formats supported
 

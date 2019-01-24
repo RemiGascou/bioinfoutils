@@ -6,13 +6,13 @@ install:
   - pip install .
 script:
   - make
-deploy:
-  - provider: pypi
-    distributions: sdist
-    user: Remigascou
-    on:
-      branch: master
-      tags: true
-      condition: $TRAVIS_PYTHON_VERSION = "3.4"
-    password:
-      secure: ""
+#deploy:
+#  - provider: pypi
+#    distributions: sdist
+#    user: Remigascou
+#    on:
+#      branch: master
+#      tags: true
+#      condition: $TRAVIS_PYTHON_VERSION = "3.4"
+#    password:
+#      secure: ""

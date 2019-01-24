@@ -1,0 +1,13 @@
+language: python
+
+python:
+    - "3.4"
+
+before_install:
+    - make clean
+    - make tests
+
+install:
+    - pip install .
+
+condition: $TRAVIS_PYTHON_VERSION = "3.4"

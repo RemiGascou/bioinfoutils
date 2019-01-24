@@ -1,5 +1,7 @@
 # BioInfoUtils library
 
+![.](https;//travis-ci.org/RemiGascou/bioinfoutils.svg?branch=master)
+
 Some algorithms needed in bioinformatics to process data.
 
 
